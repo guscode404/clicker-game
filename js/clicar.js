@@ -6,7 +6,7 @@ var spanClicks = document.getElementById("clicks-totais");
 console.log(clicks);
 
 btnClick.addEventListener("click", function() {
-    dinheiro += 1;
+    dinheiro += valorClick;
     spanDinheiro.innerHTML = dinheiro;
 
     clicks += 1;

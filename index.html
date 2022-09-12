@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marri Clicker</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
     <div id="div-click">
-        <img src="marri-click-1-recortado.png" alt="Clique aqui!" id="btn-click">
+        <img src="img/marri-click-1-recortado.png" alt="Clique aqui!" id="btn-click">
     </div>
-    <p id="p-dinheiro">Dinheiro: <span id="dinheiro">5</span></p>
+    <p id="p-dinheiro">Dinheiro: <span id="dinheiro">0</span></p>
 
-
+    <ol>
+        <li class="upgrades">
+            <h2>Fazer carinho</h2> <br>
+            <img src="img/marri-carinho-recortado..png" alt="Upgrade 1">
+            <p class="upg-desc">Faz carinho na Marri, fazendo com que o valor dos cliques aumente (+1)</p>
+            <button class="btn-comprar" onclick="comprar(0)">Comprar</button>
+            <span class="upg-custo">$$: <span class="upg-custo-valor">20</span></span>
+        </li>
+    </ol>
 
 
     <p>Clicks totais: <span id="clicks-totais">0</span></p>
 
-    <script src="clicar.js"></script>
+    <script src="js/clicar.js"></script>
+    <script src="js/upgrades.js"></script>
+    <script src="js/listaUpgrades.js"></script>
 </body>
 </html>

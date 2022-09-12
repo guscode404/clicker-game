@@ -1,0 +1,65 @@
+#div-click {
+    margin: 20px;
+    border: 2px solid #000000;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+#btn-click {
+    width: 85%;
+    height: 85%;
+    transition: 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn-click:hover {
+    -webkit-user-drag: none;
+    width: 95%;
+    height: 95%;
+    cursor: pointer;
+}
+
+#btn-click:active {
+    width: 85%;
+    height: 85%;
+}
+
+#p-dinheiro {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.upgrades {
+    width: 55%;
+    height: 55%;
+    border: 2px solid #000000;
+    padding: 10px 0 10px 10px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.upgrades h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.upg-desc, .upgrades img {
+    margin: 5px;
+}
+
+.upgrades button {
+    margin-left: 5px;
+    width: 35%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.upg-custo {
+    font-weight: bold;
+}
